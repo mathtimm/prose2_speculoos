@@ -6,11 +6,10 @@ import pandas as pd
 import numpy as np
 from astropy.time import Time
 import warnings
-from ..utils import gaia_query, sparsify, register_args
-#from twirl.utils import plot as tplot
+from ..utils import gaia_query, sparsify
 from .registration import cross_match
 from astroquery.mast import Catalogs
-from . import visualization as viz
+from .. import visualization as viz
 
 def image_gaia_query(image, *args, limit=3000, correct_pm=True, wcs=True, circular=True, fov=None):
     

@@ -16,8 +16,8 @@ from .telescope import Telescope
 from .block import Block
 from .sequence import Sequence
 from .image import Image
-#from .observation import Observation
-#from .observations import Observations
+from .observation import Observation
+from .observations import Observations
 
 #from pkg_resources import get_distribution
 #__version__ = get_distribution('prose').version
