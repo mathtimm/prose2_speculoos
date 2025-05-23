@@ -1,11 +1,11 @@
-from .observation import Observation
+from . import Observation
 from .fluxes import scargle
 import numpy as np
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 from tabulate import tabulate
 from tabulate import tabulate
-from . import visualization as viz
+from . import viz
 from . import models
 from .console_utils import info
 

@@ -6,7 +6,7 @@ from astropy.time import Time
 from astropy import units as u
 from .fluxes import ApertureFluxes, pont2006
 from . import visualization as viz
-from .telescope import Telescope
+from . import Telescope
 from . import utils
 import pandas as pd
 from scipy.stats import binned_statistic
@@ -18,7 +18,7 @@ from pathlib import Path
 from .utils import fast_binning, z_scale, clean_header
 from .console_utils import info, warning, error
 from . import blocks
-from prose2_speculoos import Sequence
+from . import Sequence
 from astropy.io import fits
 from astropy.wcs import WCS
 from matplotlib import gridspec

@@ -1,13 +1,11 @@
-from prose import Observation, Telescope, FitsManager, viz
-from prose.pipeline import Calibration, AperturePhotometry
+from prose2_speculoos import Observation, Telescope, FitsManager, viz
 import matplotlib.pyplot as plt
 import shutil
 import unittest
 import shutil
 import shutil
 from pathlib import Path
-from prose import Telescope, blocks
-from prose.reports import Report, Summary
+from prose2_speculoos import Telescope, blocks
 
 
 RAW = Path("synthetic_dataset")

@@ -1,14 +1,13 @@
 from astropy.time import Time
 import matplotlib.pyplot as plt
-import numpy as np
-#from .blocks.utils 
+import numpy as np 
 from astropy.coordinates import SkyCoord
 import astropy.units as u
 from astropy.coordinates import Angle
 from dateutil import parser as dparser
 from astropy.wcs import WCS
-from . import visualization as viz
-from .telescope import Telescope
+from . import viz
+from . import Telescope
 from . import utils
 from .utils import gaia_query
 from functools import partial
